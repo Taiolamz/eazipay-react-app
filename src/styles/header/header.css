@@ -1,0 +1,17 @@
+.header-wrap {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+.header-wrap .logo-box .logo {
+  cursor: pointer;
+}
+.header-wrap .links-wrap {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.header-wrap .btn-wrap {
+  display: flex;
+  gap: 2.5rem;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,20 @@
+.header-wrap {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: space-between;
+
+  .logo-box {
+    .logo {
+      cursor: pointer;
+    }
+  }
+  .links-wrap {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  .btn-wrap {
+    display: flex;
+    gap: 2.5rem;
+  }
+}
