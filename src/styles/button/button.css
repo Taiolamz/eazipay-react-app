@@ -1,10 +1,15 @@
-.button-wrap {
+.trans-btn, .opaque-btn {
   display: flex;
-  width: 17rem;
+  width: 15rem;
   padding: 1rem 0rem;
   justify-content: center;
   align-items: center;
   border: 0.1rem solid var(--primary-color);
   border-radius: 3rem;
   cursor: pointer;
+}
+
+.opaque-btn {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
 }/*# sourceMappingURL=button.css.map */

@@ -1,11 +1,8 @@
 import "../styles/button/button.css";
 
-const Button = ({ label, bgColor, labelColor, bxShadow }) => {
+const Button = ({ label, transBtn}) => {
   return (
-    <div
-      className="button-wrap"
-      style={{ backgroundColor: bgColor, color: labelColor, boxShadow:bxShadow }}
-    >
+    <div className={transBtn ? "trans-btn" : "opaque-btn" }>
       <p>{label}</p>
     </div>
   );

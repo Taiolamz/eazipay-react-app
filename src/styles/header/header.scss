@@ -1,20 +1,26 @@
 .header-wrap {
-  display: flex;
-  margin: 1rem 0;
-  justify-content: space-between;
-
-  .logo-box {
-    .logo {
-      cursor: pointer;
+  // background-color: red;
+  .header-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    // place-content: center;
+    padding: 2rem 12rem;
+    justify-items: center;
+    .logo-box {
+      .logo {
+        cursor: pointer;
+        // margin-right: 6rem;
+      }
     }
-  }
-  .links-wrap {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-  }
-  .btn-wrap {
-    display: flex;
-    gap: 2.5rem;
+    .links-wrap {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+    }
+    .btn-wrap {
+      display: flex;
+      gap: 2.5rem;
+      align-self: flex-end;
+    }
   }
 }

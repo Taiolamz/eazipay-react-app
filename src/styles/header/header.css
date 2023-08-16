@@ -1,17 +1,19 @@
-.header-wrap {
-  display: flex;
-  margin: 1rem 0;
-  justify-content: space-between;
+.header-wrap .header-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 12rem;
+  justify-items: center;
 }
-.header-wrap .logo-box .logo {
+.header-wrap .header-box .logo-box .logo {
   cursor: pointer;
 }
-.header-wrap .links-wrap {
+.header-wrap .header-box .links-wrap {
   display: flex;
   align-items: center;
   gap: 3rem;
 }
-.header-wrap .btn-wrap {
+.header-wrap .header-box .btn-wrap {
   display: flex;
   gap: 2.5rem;
+  align-self: flex-end;
 }/*# sourceMappingURL=header.css.map */

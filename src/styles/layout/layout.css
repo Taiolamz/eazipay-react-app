@@ -1,6 +1,6 @@
 .layout-wrap {
-  padding: 1.3rem 12rem;
   display: flex;
   flex-direction: column;
+  justify-items: center;
   gap: 3rem;
 }/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,32 @@
+.first-layout-wrap {
+  display: flex;
+  padding-left: 12rem;
+  place-items: center;
+}
+.first-layout-wrap .left-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.first-layout-wrap .header-text {
+  font-weight: 700;
+  font-size: 10rem;
+  color: #292a29;
+  font-family: MADE Mellow PERSONAL USE;
+}
+.first-layout-wrap .header-text :nth-child(1) {
+  color: var(--primary-color);
+}
+.first-layout-wrap .header-text :nth-child(2) {
+  color: #b4a572;
+}
+.first-layout-wrap .header-text :nth-child(3) {
+  color: #ea4e4b;
+}
+.first-layout-wrap .description {
+  font-size: 20px;
+  font-style: normal;
+  line-height: 28px;
+  width: 70rem;
+  letter-spacing: 0.2px;
+}/*# sourceMappingURL=firstLayout.css.map */

@@ -81,47 +81,44 @@ const Header = () => {
   );
   return (
     <div className="header-wrap">
-      {/* logo box start */}
-      <div className="logo-box">
-        <figure
-          className="logo"
-          onClick={() => {
-            navigate("/");
-          }}
-        >
-          {eazipayLogo}
-        </figure>
-      </div>
-      {/* logo box end */}
+      <div className="header-box">
+        {/* logo box start */}
+        <div className="logo-box">
+          <figure
+            className="logo"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            {eazipayLogo}
+          </figure>
+        </div>
+        {/* logo box end */}
 
-      {/* links wrap start */}
-      <div className="links-wrap">
-        {links.map((chi, idx) => {
-          const { name, link } = chi;
-          return (
-            <div
-              onClick={() => {
-                navigate(link);
-              }}
-            >
-              {name}
-            </div>
-          );
-        })}
-      </div>
-      {/* links wrap end */}
+        {/* links wrap start */}
+        <div className="links-wrap">
+          {links.map((chi, idx) => {
+            const { name, link } = chi;
+            return (
+              <div
+                onClick={() => {
+                  navigate(link);
+                }}
+              >
+                {name}
+              </div>
+            );
+          })}
+        </div>
+        {/* links wrap end */}
 
-      {/* button wrap start */}
-      <div className="btn-wrap">
-        <Button label={"Log in"} />
-        <Button
-          bxShadow={"0px 8px 16px 0px rgba(17, 69, 59, 0.20)"}
-          label={"Register"}
-          bgColor={"var(--primary-color)"}
-          labelColor={"var(--bg-color)"}
-        />
+        {/* button wrap start */}
+        <div className="btn-wrap">
+          <Button label={"Log in"} transBtn />
+          <Button label={"Register"} />
+        </div>
+        {/* button wrap end */}
       </div>
-      {/* button wrap end */}
     </div>
   );
 };
