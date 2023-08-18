@@ -1,0 +1,96 @@
+.third-layer-wrap {
+  //   background-color: #fff;
+  //   margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  position: relative;
+  .top-wrap {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    .header-text {
+      font-size: 5.6rem;
+      color: var(--primary-color);
+      font-weight: 500;
+    }
+    .sub-text {
+      font-size: 2rem;
+    }
+  }
+  .bottom-wrap {
+    display: flex;
+    position: relative;
+    gap: 20rem;
+    justify-content: space-between;
+    padding: 3rem 24rem;
+
+    // place-items: center;
+    .left-wrap {
+      .img-wrap {
+        :nth-child(1) {
+          width: 57.751rem;
+          position: absolute;
+          bottom: 9rem;
+          left: 13rem;
+        }
+        :nth-child(2) {
+          background: url("../../assets/gif-bg.jpg");
+          width: 34.761rem;
+          border-radius: 6.3rem;
+          z-index: 999;
+          position: relative;
+        }
+      }
+    }
+    .progress-img {
+      position: absolute;
+      :nth-child(1) {
+        position: relative;
+        left: 57rem;
+        height: 20rem;
+        top: 3rem;
+      }
+      :nth-child(2) {
+        position: relative;
+        left: 65rem;
+        top: 22rem;
+        width: 30rem;
+        height: 20rem;
+      }
+    }
+    .right-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+      margin-left: 8rem;
+      .right-box {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .idx-wrap {
+          font-weight: 500;
+          font-size: 2.6rem;
+          display: flex;
+          place-items: center;
+          width: 6.4rem;
+          height: 6.4rem;
+          place-content: center;
+          border-radius: 1.6rem;
+          cursor: pointer;
+          background-color: rgba(242, 241, 241, 1);
+          color: var(--primary-color);
+        }
+      }
+      .first-child {
+        background-color: var(--primary-color) !important;
+        color: #fff !important;
+      }
+      .title-right {
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

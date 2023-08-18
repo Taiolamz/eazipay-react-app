@@ -1,7 +1,6 @@
 .first-layout-wrap {
   display: flex;
-  padding-left: 12rem;
-  place-items: center;
+  padding-left: 27.7rem;
 }
 .first-layout-wrap .left-wrap {
   display: flex;
@@ -10,7 +9,7 @@
 }
 .first-layout-wrap .header-text {
   font-weight: 700;
-  font-size: 10rem;
+  font-size: 6.4rem;
   color: #292a29;
   font-family: MADE Mellow PERSONAL USE;
 }
@@ -24,9 +23,48 @@
   color: #ea4e4b;
 }
 .first-layout-wrap .description {
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
-  line-height: 28px;
-  width: 70rem;
+  line-height: 2.8rem;
   letter-spacing: 0.2px;
+}
+.first-layout-wrap .img-wrap {
+  width: 70.07rem;
+}
+.first-layout-wrap .download-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+.first-layout-wrap .download-wrap .download-text {
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.first-layout-wrap .store-wrap {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+.first-layout-wrap .store-wrap .store-box {
+  display: flex;
+  width: 17.7rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  box-shadow: 1rem 1rem 2rem rgba(21, 20, 20, 0.084);
+  padding: 1rem 1rem;
+  place-items: center;
+  cursor: pointer;
+  gap: 1rem;
+}
+.first-layout-wrap .store-wrap .desc-wrap {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.first-layout-wrap .store-wrap .store {
+  font-size: 1.5rem;
+  font-weight: 700;
 }/*# sourceMappingURL=firstLayout.css.map */

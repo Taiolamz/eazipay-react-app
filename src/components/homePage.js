@@ -1,4 +1,6 @@
 import FirstLayout from "./layout/firstLayout";
+import SecondLayout from "./layout/secondLayout";
+import ThirdLayer from "./layout/thirdLayer";
 import Layouts from "./layouts";
 
 const HomePage = () => {
@@ -6,6 +8,8 @@ const HomePage = () => {
     <div>
       <Layouts>
         <FirstLayout />
+        <SecondLayout />
+        <ThirdLayer />
       </Layouts>
     </div>
   );

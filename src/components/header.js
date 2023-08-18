@@ -115,7 +115,7 @@ const Header = () => {
         {/* button wrap start */}
         <div className="btn-wrap">
           <Button label={"Log in"} transBtn />
-          <Button label={"Register"} />
+          <Button label={"Register"} opaqueBtn/>
         </div>
         {/* button wrap end */}
       </div>
