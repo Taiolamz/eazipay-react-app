@@ -31,7 +31,10 @@ body {
   min-height: 100vh;
   overscroll-behavior: none;
   color: var(--default-color);
-  background-color: var(--bg-color);
+  // background-color: var(--bg-color);
+  background: url("../assets/background-gradient.jpg");
+
+  // background:url('../assets/background-gradient.jpg');
   -ms-overflow-style: none;
   scrollbar-width: none;
 }

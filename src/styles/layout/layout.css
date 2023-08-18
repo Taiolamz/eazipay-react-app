@@ -1,7 +1,4 @@
 .layout-wrap {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  gap: 10rem;
-  background: url("../../assets/background-gradient.jpg");
 }/*# sourceMappingURL=layout.css.map */

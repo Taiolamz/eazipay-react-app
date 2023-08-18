@@ -1,6 +1,10 @@
+.header-wrap {
+  display: flex;
+  justify-content: center;
+}
 .header-wrap .header-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  gap: 13rem;
   padding: 2rem 12rem;
   justify-items: center;
 }
@@ -11,6 +15,9 @@
   display: flex;
   align-items: center;
   gap: 3rem;
+}
+.header-wrap .header-box .links-wrap:nth-child(n-1) {
+  cursor: pointer;
 }
 .header-wrap .header-box .btn-wrap {
   display: flex;

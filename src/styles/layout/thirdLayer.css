@@ -77,7 +77,7 @@
   background-color: rgb(242, 241, 241);
   color: var(--primary-color);
 }
-.third-layer-wrap .bottom-wrap .right-wrap .first-child {
+.third-layer-wrap .bottom-wrap .right-wrap .active-child {
   background-color: var(--primary-color) !important;
   color: #fff !important;
 }

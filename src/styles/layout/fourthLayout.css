@@ -1,0 +1,66 @@
+.fourth-layout-wrap {
+  background: url("../../assets/fourth-bg-pattern.png");
+  background-color: #ffe9e7;
+  position: relative;
+}
+.fourth-layout-wrap .fourth-layout-box {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 11rem;
+}
+.fourth-layout-wrap .fourth-layout-box .pattern {
+  position: absolute;
+  left: 22rem;
+  top: 0rem;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .header-text {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: 0.005rem;
+  color: var(--primary-color);
+  font-family: MADE Mellow PERSONAL USE;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .header-text p {
+  width: 40rem;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .header-text span {
+  color: rgb(234, 78, 75);
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .sub-text {
+  margin-top: 3rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .store-wrap {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .store-wrap .store-box {
+  display: flex;
+  width: 17.7rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  box-shadow: 1rem 1rem 2rem rgba(21, 20, 20, 0.084);
+  padding: 1rem 1rem;
+  place-items: center;
+  cursor: pointer;
+  gap: 1rem;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .store-wrap .desc-wrap {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.fourth-layout-wrap .fourth-layout-box .left-wrap .store-wrap .store {
+  font-size: 1.5rem;
+  font-weight: 700;
+}/*# sourceMappingURL=fourthLayout.css.map */

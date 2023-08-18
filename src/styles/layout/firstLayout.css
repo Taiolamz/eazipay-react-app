@@ -1,54 +1,57 @@
 .first-layout-wrap {
   display: flex;
-  padding-left: 27.7rem;
+  margin-top: 8rem;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20rem;
 }
 .first-layout-wrap .left-wrap {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  margin-right: 60rem;
 }
-.first-layout-wrap .header-text {
+.first-layout-wrap .left-wrap .header-text {
   font-weight: 700;
+  width: 50rem;
   font-size: 6.4rem;
   color: #292a29;
   font-family: MADE Mellow PERSONAL USE;
 }
-.first-layout-wrap .header-text :nth-child(1) {
+.first-layout-wrap .left-wrap .header-text :nth-child(1) {
   color: var(--primary-color);
 }
-.first-layout-wrap .header-text :nth-child(2) {
+.first-layout-wrap .left-wrap .header-text :nth-child(2) {
   color: #b4a572;
 }
-.first-layout-wrap .header-text :nth-child(3) {
+.first-layout-wrap .left-wrap .header-text :nth-child(3) {
   color: #ea4e4b;
 }
-.first-layout-wrap .description {
+.first-layout-wrap .left-wrap .description {
   font-size: 2rem;
   font-style: normal;
   line-height: 2.8rem;
   letter-spacing: 0.2px;
+  width: 43rem;
 }
-.first-layout-wrap .img-wrap {
-  width: 70.07rem;
-}
-.first-layout-wrap .download-wrap {
+.first-layout-wrap .left-wrap .download-wrap {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   margin-top: 3rem;
 }
-.first-layout-wrap .download-wrap .download-text {
+.first-layout-wrap .left-wrap .download-wrap .download-text {
   color: rgb(0, 0, 0);
   font-size: 1.8rem;
   font-weight: 400;
 }
-.first-layout-wrap .store-wrap {
+.first-layout-wrap .left-wrap .store-wrap {
   display: flex;
   margin-top: 1.5rem;
   gap: 2rem;
   font-size: 1.2rem;
 }
-.first-layout-wrap .store-wrap .store-box {
+.first-layout-wrap .left-wrap .store-wrap .store-box {
   display: flex;
   width: 17.7rem;
   border-radius: 0.8rem;
@@ -59,12 +62,20 @@
   cursor: pointer;
   gap: 1rem;
 }
-.first-layout-wrap .store-wrap .desc-wrap {
+.first-layout-wrap .left-wrap .store-wrap .desc-wrap {
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
 }
-.first-layout-wrap .store-wrap .store {
+.first-layout-wrap .left-wrap .store-wrap .store {
   font-size: 1.5rem;
   font-weight: 700;
+}
+.first-layout-wrap .right-wrap {
+  position: absolute;
+  display: flex;
+  right: 0;
+}
+.first-layout-wrap .right-wrap .img-wrap {
+  width: 80.07rem;
 }/*# sourceMappingURL=firstLayout.css.map */

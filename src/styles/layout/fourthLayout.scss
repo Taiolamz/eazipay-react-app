@@ -1,0 +1,70 @@
+.fourth-layout-wrap {
+  background: url("../../assets/fourth-bg-pattern.png");
+  background-color: #ffe9e7;
+  position: relative;
+//   height: 10rem;
+  .fourth-layout-box {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 11rem;
+    .pattern {
+      position: absolute;
+      left: 22rem;
+      top: 0rem;
+    }
+    .left-wrap {
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      .header-text {
+        font-size: 5.6rem;
+        font-weight: 700;
+        line-height: 6rem;
+        letter-spacing: 0.005rem;
+        //   width: 30rem;
+        color: var(--primary-color);
+        font-family: MADE Mellow PERSONAL USE;
+        p {
+          width: 40rem;
+        }
+        span {
+          color: rgba(234, 78, 75, 1);
+        }
+      }
+      .sub-text {
+        margin-top: 3rem;
+        font-weight: 500;
+        font-size: 1.8rem;
+      }
+      .store-wrap {
+        display: flex;
+        margin-top: 1.5rem;
+        gap: 2rem;
+        font-size: 1.2rem;
+        .store-box {
+          display: flex;
+          width: 17.7rem;
+          border-radius: 0.8rem;
+          background-color: #fff;
+          // box-shadow: 2rem 2rem 2rem rgba(170, 170, 170, 0.0841);
+          box-shadow: 1rem 1rem 2rem rgba(21, 20, 20, 0.084);
+          padding: 1rem 1rem;
+          place-items: center;
+          cursor: pointer;
+          gap: 1rem;
+          // width: 18rem;
+        }
+        .desc-wrap {
+          display: flex;
+          gap: 0.5rem;
+          flex-direction: column;
+        }
+        .store {
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

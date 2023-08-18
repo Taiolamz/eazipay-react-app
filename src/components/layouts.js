@@ -1,4 +1,5 @@
-import "../styles/layout/layout.css"
+import "../styles/layout/layout.css";
+import Footer from "./footer";
 import Header from "./header";
 
 const Layouts = ({ children }) => {
@@ -6,6 +7,7 @@ const Layouts = ({ children }) => {
     <div className="layout-wrap">
       <Header />
       {children}
+      <Footer />
     </div>
   );
 };
